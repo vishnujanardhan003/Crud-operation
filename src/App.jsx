@@ -3,6 +3,7 @@ import PropChild from './propexample/PropChild'
 import ChildPro from './propexample/ChildPro'
 import CBCStateEx from './stateEx/CBCStateEx'
 import FBCStateEx from './stateEx/FBCStateEx'
+import Incre from './stateEx/Incre'
 
 const App=()=> {
     return (
@@ -11,6 +12,7 @@ const App=()=> {
                 <h1>This is a passed as props children</h1>
                 <ChildPro/>
             </PropChild>
+            <Incre/>
 
             <CBCStateEx/>
             <FBCStateEx/>
