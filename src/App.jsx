@@ -4,6 +4,7 @@ import ChildPro from './propexample/ChildPro'
 import CBCStateEx from './stateEx/CBCStateEx'
 import FBCStateEx from './stateEx/FBCStateEx'
 import Incre from './stateEx/Incre'
+import EXUseEffect from './stateEx/EXUseEffect'
 
 const App=()=> {
     return (
@@ -13,9 +14,12 @@ const App=()=> {
                 <ChildPro/>
             </PropChild>
             <Incre/>
+            
 
             <CBCStateEx/>
             <FBCStateEx/>
+            <EXUseEffect/>
+
 
 
         </div>
