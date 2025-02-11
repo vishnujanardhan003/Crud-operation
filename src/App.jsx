@@ -5,6 +5,7 @@ import CBCStateEx from './stateEx/CBCStateEx'
 import FBCStateEx from './stateEx/FBCStateEx'
 import Incre from './stateEx/Incre'
 import EXUseEffect from './stateEx/EXUseEffect'
+import RefExp from './hooks/RefExp'
 
 const App=()=> {
     return (
@@ -19,6 +20,7 @@ const App=()=> {
             <CBCStateEx/>
             <FBCStateEx/>
             <EXUseEffect/>
+            <RefExp/>
 
 
 
